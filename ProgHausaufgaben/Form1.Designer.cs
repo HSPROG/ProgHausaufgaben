@@ -39,6 +39,7 @@
             this.buttonEntwicklungSchueler = new System.Windows.Forms.Button();
             this.buttonDurchschnittsNoten = new System.Windows.Forms.Button();
             this.buttonEnde = new System.Windows.Forms.Button();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // buttonDatenbankOeffnen
@@ -140,11 +141,22 @@
             this.buttonEnde.Text = "Ende";
             this.buttonEnde.UseVisualStyleBackColor = true;
             // 
+            // richTextBox1
+            // 
+            this.richTextBox1.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.richTextBox1.Location = new System.Drawing.Point(3, 3);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
+            this.richTextBox1.Size = new System.Drawing.Size(734, 429);
+            this.richTextBox1.TabIndex = 11;
+            this.richTextBox1.Text = "";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(937, 445);
+            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.buttonEnde);
             this.Controls.Add(this.buttonDurchschnittsNoten);
             this.Controls.Add(this.buttonEntwicklungSchueler);
@@ -175,6 +187,7 @@
         private System.Windows.Forms.Button buttonEntwicklungSchueler;
         private System.Windows.Forms.Button buttonDurchschnittsNoten;
         private System.Windows.Forms.Button buttonEnde;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }
 
