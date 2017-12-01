@@ -43,7 +43,7 @@
             // 
             // buttonDatenbankOeffnen
             // 
-            this.buttonDatenbankOeffnen.Location = new System.Drawing.Point(754, 55);
+            this.buttonDatenbankOeffnen.Location = new System.Drawing.Point(754, 14);
             this.buttonDatenbankOeffnen.Name = "buttonDatenbankOeffnen";
             this.buttonDatenbankOeffnen.Size = new System.Drawing.Size(173, 23);
             this.buttonDatenbankOeffnen.TabIndex = 0;
@@ -52,7 +52,7 @@
             // 
             // buttonUebersicht
             // 
-            this.buttonUebersicht.Location = new System.Drawing.Point(754, 95);
+            this.buttonUebersicht.Location = new System.Drawing.Point(754, 54);
             this.buttonUebersicht.Name = "buttonUebersicht";
             this.buttonUebersicht.Size = new System.Drawing.Size(173, 23);
             this.buttonUebersicht.TabIndex = 1;
@@ -61,7 +61,7 @@
             // 
             // buttonAlleFaecher
             // 
-            this.buttonAlleFaecher.Location = new System.Drawing.Point(754, 135);
+            this.buttonAlleFaecher.Location = new System.Drawing.Point(754, 94);
             this.buttonAlleFaecher.Name = "buttonAlleFaecher";
             this.buttonAlleFaecher.Size = new System.Drawing.Size(173, 23);
             this.buttonAlleFaecher.TabIndex = 2;
@@ -70,7 +70,7 @@
             // 
             // buttonAlleFachnamen
             // 
-            this.buttonAlleFachnamen.Location = new System.Drawing.Point(754, 176);
+            this.buttonAlleFachnamen.Location = new System.Drawing.Point(754, 135);
             this.buttonAlleFachnamen.Name = "buttonAlleFachnamen";
             this.buttonAlleFachnamen.Size = new System.Drawing.Size(173, 23);
             this.buttonAlleFachnamen.TabIndex = 3;
@@ -79,7 +79,7 @@
             // 
             // buttonAlleSchulhalbjahre
             // 
-            this.buttonAlleSchulhalbjahre.Location = new System.Drawing.Point(754, 215);
+            this.buttonAlleSchulhalbjahre.Location = new System.Drawing.Point(754, 174);
             this.buttonAlleSchulhalbjahre.Name = "buttonAlleSchulhalbjahre";
             this.buttonAlleSchulhalbjahre.Size = new System.Drawing.Size(173, 23);
             this.buttonAlleSchulhalbjahre.TabIndex = 4;
@@ -88,7 +88,7 @@
             // 
             // buttonAlleSchueler
             // 
-            this.buttonAlleSchueler.Location = new System.Drawing.Point(754, 256);
+            this.buttonAlleSchueler.Location = new System.Drawing.Point(754, 215);
             this.buttonAlleSchueler.Name = "buttonAlleSchueler";
             this.buttonAlleSchueler.Size = new System.Drawing.Size(173, 23);
             this.buttonAlleSchueler.TabIndex = 5;
@@ -97,7 +97,7 @@
             // 
             // buttonZeugnis
             // 
-            this.buttonZeugnis.Location = new System.Drawing.Point(754, 297);
+            this.buttonZeugnis.Location = new System.Drawing.Point(754, 256);
             this.buttonZeugnis.Name = "buttonZeugnis";
             this.buttonZeugnis.Size = new System.Drawing.Size(173, 23);
             this.buttonZeugnis.TabIndex = 6;
@@ -106,7 +106,7 @@
             // 
             // buttonEntwicklung
             // 
-            this.buttonEntwicklung.Location = new System.Drawing.Point(754, 335);
+            this.buttonEntwicklung.Location = new System.Drawing.Point(754, 294);
             this.buttonEntwicklung.Name = "buttonEntwicklung";
             this.buttonEntwicklung.Size = new System.Drawing.Size(173, 23);
             this.buttonEntwicklung.TabIndex = 7;
@@ -115,7 +115,7 @@
             // 
             // buttonEntwicklungSchueler
             // 
-            this.buttonEntwicklungSchueler.Location = new System.Drawing.Point(754, 373);
+            this.buttonEntwicklungSchueler.Location = new System.Drawing.Point(754, 332);
             this.buttonEntwicklungSchueler.Name = "buttonEntwicklungSchueler";
             this.buttonEntwicklungSchueler.Size = new System.Drawing.Size(173, 23);
             this.buttonEntwicklungSchueler.TabIndex = 8;
@@ -124,7 +124,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(754, 412);
+            this.button1.Location = new System.Drawing.Point(754, 371);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(173, 23);
             this.button1.TabIndex = 9;
@@ -133,18 +133,18 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(754, 450);
+            this.button2.Location = new System.Drawing.Point(754, 409);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(173, 23);
             this.button2.TabIndex = 10;
-            this.button2.Text = "Ende";
+            this.button2.Text = "Ende1";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(943, 527);
+            this.ClientSize = new System.Drawing.Size(937, 445);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.buttonEntwicklungSchueler);
