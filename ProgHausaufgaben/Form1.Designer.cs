@@ -52,7 +52,7 @@
             // 
             // buttonUebersicht
             // 
-            this.buttonUebersicht.Location = new System.Drawing.Point(754, 93);
+            this.buttonUebersicht.Location = new System.Drawing.Point(754, 95);
             this.buttonUebersicht.Name = "buttonUebersicht";
             this.buttonUebersicht.Size = new System.Drawing.Size(173, 23);
             this.buttonUebersicht.TabIndex = 1;
@@ -61,7 +61,7 @@
             // 
             // buttonAlleFaecher
             // 
-            this.buttonAlleFaecher.Location = new System.Drawing.Point(754, 133);
+            this.buttonAlleFaecher.Location = new System.Drawing.Point(754, 135);
             this.buttonAlleFaecher.Name = "buttonAlleFaecher";
             this.buttonAlleFaecher.Size = new System.Drawing.Size(173, 23);
             this.buttonAlleFaecher.TabIndex = 2;
@@ -70,7 +70,7 @@
             // 
             // buttonAlleFachnamen
             // 
-            this.buttonAlleFachnamen.Location = new System.Drawing.Point(754, 174);
+            this.buttonAlleFachnamen.Location = new System.Drawing.Point(754, 176);
             this.buttonAlleFachnamen.Name = "buttonAlleFachnamen";
             this.buttonAlleFachnamen.Size = new System.Drawing.Size(173, 23);
             this.buttonAlleFachnamen.TabIndex = 3;
@@ -144,7 +144,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(949, 557);
+            this.ClientSize = new System.Drawing.Size(943, 527);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.buttonEntwicklungSchueler);
