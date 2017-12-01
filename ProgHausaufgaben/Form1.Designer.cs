@@ -44,7 +44,7 @@
             // 
             // buttonDatenbankOeffnen
             // 
-            this.buttonDatenbankOeffnen.Location = new System.Drawing.Point(754, 14);
+            this.buttonDatenbankOeffnen.Location = new System.Drawing.Point(620, 14);
             this.buttonDatenbankOeffnen.Name = "buttonDatenbankOeffnen";
             this.buttonDatenbankOeffnen.Size = new System.Drawing.Size(173, 23);
             this.buttonDatenbankOeffnen.TabIndex = 0;
@@ -53,7 +53,7 @@
             // 
             // buttonUebersicht
             // 
-            this.buttonUebersicht.Location = new System.Drawing.Point(754, 54);
+            this.buttonUebersicht.Location = new System.Drawing.Point(620, 54);
             this.buttonUebersicht.Name = "buttonUebersicht";
             this.buttonUebersicht.Size = new System.Drawing.Size(173, 23);
             this.buttonUebersicht.TabIndex = 1;
@@ -62,7 +62,7 @@
             // 
             // buttonAlleFaecher
             // 
-            this.buttonAlleFaecher.Location = new System.Drawing.Point(754, 94);
+            this.buttonAlleFaecher.Location = new System.Drawing.Point(620, 94);
             this.buttonAlleFaecher.Name = "buttonAlleFaecher";
             this.buttonAlleFaecher.Size = new System.Drawing.Size(173, 23);
             this.buttonAlleFaecher.TabIndex = 2;
@@ -71,7 +71,7 @@
             // 
             // buttonAlleFachnamen
             // 
-            this.buttonAlleFachnamen.Location = new System.Drawing.Point(754, 135);
+            this.buttonAlleFachnamen.Location = new System.Drawing.Point(620, 135);
             this.buttonAlleFachnamen.Name = "buttonAlleFachnamen";
             this.buttonAlleFachnamen.Size = new System.Drawing.Size(173, 23);
             this.buttonAlleFachnamen.TabIndex = 3;
@@ -80,7 +80,7 @@
             // 
             // buttonAlleSchulhalbjahre
             // 
-            this.buttonAlleSchulhalbjahre.Location = new System.Drawing.Point(754, 174);
+            this.buttonAlleSchulhalbjahre.Location = new System.Drawing.Point(620, 174);
             this.buttonAlleSchulhalbjahre.Name = "buttonAlleSchulhalbjahre";
             this.buttonAlleSchulhalbjahre.Size = new System.Drawing.Size(173, 23);
             this.buttonAlleSchulhalbjahre.TabIndex = 4;
@@ -89,7 +89,7 @@
             // 
             // buttonAlleSchueler
             // 
-            this.buttonAlleSchueler.Location = new System.Drawing.Point(754, 215);
+            this.buttonAlleSchueler.Location = new System.Drawing.Point(620, 215);
             this.buttonAlleSchueler.Name = "buttonAlleSchueler";
             this.buttonAlleSchueler.Size = new System.Drawing.Size(173, 23);
             this.buttonAlleSchueler.TabIndex = 5;
@@ -98,7 +98,7 @@
             // 
             // buttonZeugnis
             // 
-            this.buttonZeugnis.Location = new System.Drawing.Point(754, 256);
+            this.buttonZeugnis.Location = new System.Drawing.Point(620, 256);
             this.buttonZeugnis.Name = "buttonZeugnis";
             this.buttonZeugnis.Size = new System.Drawing.Size(173, 23);
             this.buttonZeugnis.TabIndex = 6;
@@ -107,7 +107,7 @@
             // 
             // buttonEntwicklung
             // 
-            this.buttonEntwicklung.Location = new System.Drawing.Point(754, 294);
+            this.buttonEntwicklung.Location = new System.Drawing.Point(620, 294);
             this.buttonEntwicklung.Name = "buttonEntwicklung";
             this.buttonEntwicklung.Size = new System.Drawing.Size(173, 23);
             this.buttonEntwicklung.TabIndex = 7;
@@ -116,7 +116,7 @@
             // 
             // buttonEntwicklungSchueler
             // 
-            this.buttonEntwicklungSchueler.Location = new System.Drawing.Point(754, 332);
+            this.buttonEntwicklungSchueler.Location = new System.Drawing.Point(620, 332);
             this.buttonEntwicklungSchueler.Name = "buttonEntwicklungSchueler";
             this.buttonEntwicklungSchueler.Size = new System.Drawing.Size(173, 23);
             this.buttonEntwicklungSchueler.TabIndex = 8;
@@ -125,7 +125,7 @@
             // 
             // buttonDurchschnittsNoten
             // 
-            this.buttonDurchschnittsNoten.Location = new System.Drawing.Point(754, 371);
+            this.buttonDurchschnittsNoten.Location = new System.Drawing.Point(620, 371);
             this.buttonDurchschnittsNoten.Name = "buttonDurchschnittsNoten";
             this.buttonDurchschnittsNoten.Size = new System.Drawing.Size(173, 23);
             this.buttonDurchschnittsNoten.TabIndex = 9;
@@ -134,7 +134,7 @@
             // 
             // buttonEnde
             // 
-            this.buttonEnde.Location = new System.Drawing.Point(754, 409);
+            this.buttonEnde.Location = new System.Drawing.Point(620, 409);
             this.buttonEnde.Name = "buttonEnde";
             this.buttonEnde.Size = new System.Drawing.Size(173, 23);
             this.buttonEnde.TabIndex = 10;
@@ -144,10 +144,10 @@
             // richTextBox1
             // 
             this.richTextBox1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.richTextBox1.Location = new System.Drawing.Point(3, 3);
+            this.richTextBox1.Location = new System.Drawing.Point(6, 14);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.richTextBox1.Size = new System.Drawing.Size(734, 429);
+            this.richTextBox1.Size = new System.Drawing.Size(602, 418);
             this.richTextBox1.TabIndex = 11;
             this.richTextBox1.Text = "";
             // 
@@ -155,7 +155,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(937, 445);
+            this.ClientSize = new System.Drawing.Size(808, 441);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.buttonEnde);
             this.Controls.Add(this.buttonDurchschnittsNoten);
