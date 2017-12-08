@@ -31,22 +31,22 @@ namespace Daten
             this._fachname = fachname;
             this._schuljahr = schuljahr;
         }
-		
-		public override bool Equals(object obj)
+
+        public override bool Equals(object obj)
         {
             Fach fach = obj as Fach;
             return fach != null && this._fachname.Equals(fach._fachname) && this._schuljahr.Equals(fach._schuljahr);
         }
-		
-		public override int GetHashCode()
+
+        public override int GetHashCode()
         {
             return _fachname.GetHashCode() ^ _schuljahr.GetHashCode();
         }
-		
-		public override string ToString()
+
+        public override string ToString()
         {
-            
-            return fachname + " (" + schuljahr + ".)" ;
+
+            return fachname + " (" + schuljahr + ".)";
         }
     }
 }

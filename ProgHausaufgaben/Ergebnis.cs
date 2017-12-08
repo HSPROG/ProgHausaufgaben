@@ -8,54 +8,54 @@ using System.Threading.Tasks;
 
 namespace Daten
 {
-    class Ergebis
+    class Ergebnis
     {
         private Schüler _schüler;
-        public  Schüler schüler
+        public Schüler schüler
         {
             get { return _schüler; }
         }
-		
+
         private Fach _fach;
-		public Fach fach
-		{
+        public Fach fach
+        {
             get { return _fach; }
         }
-		
+
         private Schulhalbjahr _schulhalbjahr;
-		public Schulhalbjahr schulhalbjahr
-		{
+        public Schulhalbjahr schulhalbjahr
+        {
             get { return _schulhalbjahr; }
         }
-		
+
         private int _note;
         public int note
         {
             get { return _note; }
         }
-		
-		public Ergebis(Schüler schüler, Fach fach, Schulhalbjahr schulhalbjahr, int note)
+
+        public Ergebnis(Schüler schüler, Fach fach, Schulhalbjahr schulhalbjahr, int note)
         {
-			if (note < 1 || note > 6)
+            if (note < 1 || note > 6)
                 throw new Exception("Ungültige Note");
-			if (schüler == null || fach == null || schulhalbjahr == null)
+            if (schüler == null || fach == null || schulhalbjahr == null)
                 throw new Exception("Es Fehlt mindestens eine Angabe des Ergebisses");
-			
-			this._schüler = schüler;
+
+            this._schüler = schüler;
             this._fach = fach;
-			this._schulhalbjahr = schulhalbjahr;
-			this._note = note;
-            
+            this._schulhalbjahr = schulhalbjahr;
+            this._note = note;
+
         }
-		
-		public override bool Equals(object obj)
+
+        public override bool Equals(object obj)
         {
-            Ergebis ergebnis = obj as Ergebis;
-            return ergebnis != null && this._schüler.Equals(ergebnis._schüler) && this._fach.Equals(ergebnis._fach) 
-			&& this._schulhalbjahr.Equals(ergebnis._schulhalbjahr) && this._note.Equals(ergebnis._note);
+            Ergebnis ergebnis = obj as Ergebnis;
+            return ergebnis != null && this._schüler.Equals(ergebnis._schüler) && this._fach.Equals(ergebnis._fach)
+            && this._schulhalbjahr.Equals(ergebnis._schulhalbjahr) && this._note.Equals(ergebnis._note);
         }
-		
-		public override int GetHashCode()
+
+        public override int GetHashCode()
         {
             return _schüler.GetHashCode() ^ _fach.GetHashCode() ^ _schulhalbjahr.GetHashCode() ^ _note.GetHashCode();
         }

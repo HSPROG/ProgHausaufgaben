@@ -29,14 +29,14 @@ namespace Daten
             this._schuljahr = schuljahr;
             this._halbjahr = halbjahr;
         }
-		
-		public override bool Equals(object obj)
+
+        public override bool Equals(object obj)
         {
             Schulhalbjahr schuljahr = obj as Schulhalbjahr;
             return schuljahr != null && this._schuljahr.Equals(schuljahr._schuljahr) && this._halbjahr.Equals(schuljahr._halbjahr);
         }
-		
-		public override int GetHashCode()
+
+        public override int GetHashCode()
         {
             return _schuljahr.GetHashCode() ^ _halbjahr.GetHashCode();
         }

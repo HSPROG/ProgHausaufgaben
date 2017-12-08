@@ -36,22 +36,22 @@ namespace Daten
             this._vorname = vorname;
 
         }
-		
-		public override bool Equals(object obj)
+
+        public override bool Equals(object obj)
         {
             Schüler schüler = obj as Schüler;
             return schüler != null && this._schülernummer.Equals(schüler._schülernummer) && this._name.Equals(schüler._name) && this._vorname.Equals(schüler._vorname);
         }
-		
-		public override int GetHashCode()
+
+        public override int GetHashCode()
         {
-            return _schülernummer.GetHashCode() ^ _name.GetHashCode() ^ _vorname.GetHashCode() ;
+            return _schülernummer.GetHashCode() ^ _name.GetHashCode() ^ _vorname.GetHashCode();
         }
 
         public override string ToString()
         {
 
-            return schülernummer + " (" + name +", " + vorname + ")";
+            return schülernummer + " (" + name + ", " + vorname + ")";
         }
 
     }
