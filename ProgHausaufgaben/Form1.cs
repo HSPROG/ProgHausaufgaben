@@ -24,6 +24,7 @@ namespace ProgHausaufgaben
             OpenFileDialog openFileDialog1 = new OpenFileDialog();
 
             openFileDialog1.Filter = "mdb files (*.mdb)|*.mdb|All files (*.*)|*.*";
+            openFileDialog1.FileName = "";
             openFileDialog1.RestoreDirectory = true;
 
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
@@ -34,13 +35,13 @@ namespace ProgHausaufgaben
                     {
                         using (myStream)
                         {
-                            // Rufe Namespace Datenbank
+                            // Rufe Namespace von Chris
                         }
                     }
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Error: Could not read file from disk. Original error: " + ex.Message);
+                    MessageBox.Show("Fehler: Could not read file from disk. Original error: " + ex.Message);
                 }
             }
         }

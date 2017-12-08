@@ -1,29 +1,25 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Daten
 {
-    class Schüler
+    public class Schüler
     {
-        private string _schülernummer;
-        public string schülernummer
+        private string schülernummer;
+        public string Schülernummer
         {
-            get { return _schülernummer; }
+            get { return schülernummer; }
         }
 
-        private string _name;
-        public string name
+        private string name;
+        public string Name
         {
-            get { return _name; }
+            get { return name; }
         }
 
-        private string _vorname;
-        public string vorname
+        private string vorname;
+        public string Vorname
         {
-            get { return _vorname; }
+            get { return vorname; }
         }
 
         public Schüler(string schülernummer, string name, string vorname)
@@ -31,21 +27,21 @@ namespace Daten
             if (String.IsNullOrEmpty(schülernummer) || String.IsNullOrEmpty(name) || String.IsNullOrEmpty(vorname))
                 throw new Exception("Es fehlt mindestens ein Parameter für Schüler!");
 
-            this._schülernummer = schülernummer;
-            this._name = name;
-            this._vorname = vorname;
+            this.schülernummer = schülernummer;
+            this.name = name;
+            this.vorname = vorname;
 
         }
 
         public override bool Equals(object obj)
         {
-            Schüler schüler = obj as Schüler;
-            return schüler != null && this._schülernummer.Equals(schüler._schülernummer) && this._name.Equals(schüler._name) && this._vorname.Equals(schüler._vorname);
+            Schüler Schüler = obj as Schüler;
+            return Schüler != null && this.Schülernummer.Equals(Schüler.schülernummer) && this.name.Equals(Schüler.name) && this.vorname.Equals(Schüler.vorname);
         }
 
         public override int GetHashCode()
         {
-            return _schülernummer.GetHashCode() ^ _name.GetHashCode() ^ _vorname.GetHashCode();
+            return schülernummer.GetHashCode() ^ name.GetHashCode() ^ vorname.GetHashCode();
         }
 
         public override string ToString()

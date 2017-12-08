@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Auswertung.cs" />
+    <Compile Include="Datenbank.cs" />
     <Compile Include="Ergebnis.cs" />
     <Compile Include="Fach.cs" />
     <Compile Include="Form1.cs">

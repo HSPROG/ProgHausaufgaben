@@ -1,23 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Daten
 {
-    class Fach
+    public class Fach
     {
-        private string _fachname;
-        public string fachname
+        private string fachname;
+        public string Fachname
         {
-            get { return _fachname; }
+            get { return fachname; }
         }
 
-        private int _schuljahr;
-        public int schuljahr
+        private int schuljahr;
+        public int Schuljahr
         {
-            get { return _schuljahr; }
+            get { return schuljahr; }
 
         }
 
@@ -28,19 +24,19 @@ namespace Daten
             if (String.IsNullOrEmpty(fachname))
                 throw new Exception("Es fehlt der Fachname!");
 
-            this._fachname = fachname;
-            this._schuljahr = schuljahr;
+            this.fachname = fachname;
+            this.schuljahr = schuljahr;
         }
 
         public override bool Equals(object obj)
         {
             Fach fach = obj as Fach;
-            return fach != null && this._fachname.Equals(fach._fachname) && this._schuljahr.Equals(fach._schuljahr);
+            return fach != null && this.fachname.Equals(fach.fachname) && this.schuljahr.Equals(fach.schuljahr);
         }
 
         public override int GetHashCode()
         {
-            return _fachname.GetHashCode() ^ _schuljahr.GetHashCode();
+            return fachname.GetHashCode() ^ schuljahr.GetHashCode();
         }
 
         public override string ToString()

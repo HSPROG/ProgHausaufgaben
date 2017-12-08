@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace Daten
 {
-    class Schulhalbjahr
+    public class Schulhalbjahr
     {
-        private string _schuljahr;
-        public string schuljahr
+        private string schuljahr;
+        public string Schuljahr
         {
-            get { return _schuljahr; }
+            get { return schuljahr; }
         }
 
-        private int _halbjahr;
-        public int halbjahr
+        private int halbjahr;
+        public int Halbjahr
         {
-            get { return _halbjahr; }
+            get { return halbjahr; }
         }
 
         public Schulhalbjahr(string schuljahr, int halbjahr)
@@ -26,19 +26,19 @@ namespace Daten
                 throw new Exception("Das Halbjahr muss einen Wert zwischen 1 und 2 haben!");
             if (String.IsNullOrEmpty(schuljahr))
                 throw new Exception("Es fehlt der Parameter Schuljahr für das Schulhalbjahr!");
-            this._schuljahr = schuljahr;
-            this._halbjahr = halbjahr;
+            this.schuljahr = schuljahr;
+            this.halbjahr = halbjahr;
         }
 
         public override bool Equals(object obj)
         {
             Schulhalbjahr schuljahr = obj as Schulhalbjahr;
-            return schuljahr != null && this._schuljahr.Equals(schuljahr._schuljahr) && this._halbjahr.Equals(schuljahr._halbjahr);
+            return schuljahr != null && this.schuljahr.Equals(schuljahr.schuljahr) && this.halbjahr.Equals(schuljahr.halbjahr);
         }
 
         public override int GetHashCode()
         {
-            return _schuljahr.GetHashCode() ^ _halbjahr.GetHashCode();
+            return schuljahr.GetHashCode() ^ halbjahr.GetHashCode();
         }
 
         public override string ToString()

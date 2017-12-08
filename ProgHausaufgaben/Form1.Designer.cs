@@ -170,7 +170,7 @@
             this.Controls.Add(this.buttonUebersicht);
             this.Controls.Add(this.buttonDatenbankOeffnen);
             this.Name = "Form1";
-            this.Text = "Schulverwaltungssystem";
+            this.Text = "Hello";
             this.ResumeLayout(false);
 
         }
