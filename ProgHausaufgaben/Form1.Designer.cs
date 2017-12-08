@@ -50,6 +50,7 @@
             this.buttonDatenbankOeffnen.TabIndex = 0;
             this.buttonDatenbankOeffnen.Text = "Datenbank öffnen";
             this.buttonDatenbankOeffnen.UseVisualStyleBackColor = true;
+            this.buttonDatenbankOeffnen.Click += new System.EventHandler(this.buttonDatenbankOeffnen_Click);
             // 
             // buttonUebersicht
             // 
